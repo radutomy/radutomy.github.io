@@ -4,7 +4,7 @@
 title: Radu Tomuleasa
 
 # Short description of your site
-description: Software Engineering, C#, Embedded, Raspberry Pi
+description: Software & Industrial Engineering, C#, .NET, C, Embedded, Raspberry Pi
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -21,11 +21,8 @@ description: Software Engineering, C#, Embedded, Raspberry Pi
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Repository: "https://github.com/radutomy"
-  LinkedIn: "https://www.linkedin.com/in/radutomuleasa"
+  GitHub: "https://github.com/radutomy"
+  Keep in Touch: "https://www.linkedin.com/in/radutomuleasa"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
