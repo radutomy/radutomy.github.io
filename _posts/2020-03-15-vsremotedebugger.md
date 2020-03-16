@@ -26,5 +26,5 @@ Patience! When it's running for the first time, the extension is trying to setup
 The source code is available at https://github.com/radutomy/VSRemoteDebugger
 
 
-[1]: https://raw.github.com/radutomy/radutomy.github.io/master/img/p1/img1.jpg
+[1]: https://github.com/radutomy/radutomy.github.io/blob/master/img/p1/img1.jpg
 [2]: https://raw.github.com/radutomy/radutomy.github.io/master/img/p1/img2.jpg
