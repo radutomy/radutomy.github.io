@@ -1,6 +1,6 @@
 ---	
 layout: post	
-title: Remote SSH Debuggin tool for Visual Studio 2019 (Arm/Raspberry Pi compatible)
+title: Remote SSH Debugging with Visual Studio 2019
 image: /img/p1/imgheader.png
 ---	
 
