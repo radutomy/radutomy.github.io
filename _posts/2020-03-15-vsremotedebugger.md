@@ -13,8 +13,7 @@ Make sure you have public key authentification set up with your remote system an
 
 Then, once the extension is installed, in VS 2019 go to `Tools -> Settings -> VsRemoteDebugger` and configure your Raspberry Pi IP address, username and remote output directory. 
 
-
-![alt text]( {{ '/img/p1/img1.jpg' | absolute_url }} )
+![alt text][1]
 
 Open a C# solution and click on `Tools -> Start Remote Debugging`
 
@@ -25,3 +24,7 @@ Patience! When it's running for the first time, the extension is trying to setup
 
 
 The source code is available at https://github.com/radutomy/VSRemoteDebugger
+
+
+[1]: https://raw.github.com/radutomy/radutomy.github.io/master/img/p1/img1.jpg
+[2]: https://raw.github.com/radutomy/radutomy.github.io/master/img/p1/img2.jpg
