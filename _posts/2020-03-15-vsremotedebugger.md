@@ -9,14 +9,19 @@ With the rise of .NET Core and embedded devices such as the Rasperry Pi, I find 
 Therefore, I developed an extension for Visual Studio 2019 that fills the gap. You can download it from [here](https://github.com/radutomy/VSRemoteDebugger/releases/)
 
 
-Setup is simple - once installed, go to `Tools -> Settings -> VsRemoteDebugger` and configure your Raspberry Pi IP address, username and remote output directory. 
+Make sure you have public key authentification set up with your remote system and that your private key on your local machine is in `~\.ssh\id_rsa` and on your local machine `~/.ssh/authorized_keys`
+
+Then, once the extension is installed, in VS 2019 go to `Tools -> Settings -> VsRemoteDebugger` and configure your Raspberry Pi IP address, username and remote output directory. 
 
 
 ![alt text](/img/p1/img1.jpg)
 
-Once the above is configured, open a C# solution and click on `Tools -> Start Remote Debugging`
+Open a C# solution and click on `Tools -> Start Remote Debugging`
 
 ![alt text](/img/p1/img2.jpg)
 
-This will start the remote debugging process.
 
+Patience! When it's running for the first time, the extension is trying to setup the debugging server on the remote machine and visual feedback is not great - depending on your internet connection **it might take up to one minute** to get everything set up correctly.
+
+
+The source code is available at https://github.com/radutomy/VSRemoteDebugger
