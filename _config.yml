@@ -14,7 +14,7 @@ description: Projects and ideas you might find useful
 url: "https://github.com/radutomy/radutomy.github.io"
 
 # baseurl should be an empty string
-baseurl: "radutomy.github.io"
+#baseurl: "radutomy.github.io"
 
 # --- Navigation bar options --- #
 
