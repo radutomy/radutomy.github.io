@@ -1,6 +1,6 @@
 ---	
 layout: post	
-title: Real Time Page Updates in Blazor (p1)
+title: Real Time Page Updates in Blazor (P1)
 image: /img/p3/header.png
 ---	
 
@@ -11,9 +11,7 @@ image: /img/p3/header.png
 
 ## Introduction
 
-### We are going to demo a Blazor web assembly application that receives real time information from a service and updates the page asynchronously based on the price change.
-
-For the purpose of this demo we're going to display the price in real time for the 5 most popular cryptocurrencies (Bitcoin, Ethereum, Ripple, Bitcoin Cash and Litecoin)
+In this post we are showcasing a Blazor web assembly application that receives real time information from a service and updates the page asynchronously based on the price change. For the purpose of this demo we're going to display the price in real time for the 5 most popular cryptocurrencies (Bitcoin, Ethereum, Ripple, Bitcoin Cash and Litecoin)
 
 Let's start by describing the model:
 
@@ -31,7 +29,7 @@ public enum Ticker
 }
 ```
 
-Now let's assume we have a service that provides us a hook and calls us back when there's a change. The API design would be something in these lines:
+Now let's assume we have a service that we can subscribe to and calls us back when there's a price change. The API design would be something in these lines:
 
 ```csharp
 public interface ICryptoService : IDisposable
@@ -61,9 +59,9 @@ As the price for the items change and the service issues callbacks, we have to u
 
 <MatTable Items="@_cryptos" ShowPaging="false">
     <MatTableHeader>
-        <th class="mat-th">Name</th>
-        <th class="mat-th">Ticker</th>
-        <th class="mat-th">Price</th>
+        <th>Name</th>
+        <th>Ticker</th>
+        <th>Price</th>
     </MatTableHeader>
     <MatTableRow>
         <td>@context.Name</td>
