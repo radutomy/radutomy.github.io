@@ -98,4 +98,5 @@ As the price for the items change and the service issues callbacks, we have to u
 
 One important note is that rerendering the UI via invoking `StateHasChanged` is not an atomic operation - the DOM has complete control over when the rerendering takes place.
 
-The source code can be found here: [https://github.com/radutomy/RealTimeBlazor](https://github.com/radutomy/RealTimeBlazor)
+Demo pagee: [https://radutomy.github.io/RealTimeBlazor/](https://radutomy.github.io/RealTimeBlazor/)
+Source code: [https://github.com/radutomy/RealTimeBlazor](https://github.com/radutomy/RealTimeBlazor)
