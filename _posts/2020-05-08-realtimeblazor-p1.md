@@ -6,7 +6,7 @@ image: /img/p3/header.png
 
 ## This is a 3 part series:
 - [Part I convers building the Blazor client and demonstrating how it can be used to process events in real time](https://radutomy.github.io/2020-05-08-realtimeblazor-p1/)
-- [In Part II  we demonstrate how we can leverage Azure and Github Pages in order to build a complete CI pipeline that builds and deploys the application automatically](https://radutomy.github.io/2020-05-08-realtimeblazor-p2/)
+- [In Part II  we demonstrate how we can leverage Azure and Github Pages in order to build a complete CI pipeline that builds and deploys the application automatically](https://radutomy.github.io/2020-05-15-realtimeblazor-p2/)
 - Finally, in part III we're adding covering unit testing via Azure
 
 ## Introduction
