@@ -22,8 +22,7 @@ Open a C# solution and click on `Tools -> Start Remote Debugging`
 Patience! When it's running for the first time, the extension is trying to setup the debugging server on the remote machine and visual feedback is not great - depending on your internet connection **it might take up to one minute** to get everything set up correctly.
 
 
-The source code is available at [https://github.com/radutomy/VSRemoteDebugger](https://github.com/radutomy/VSRemoteDebugger)
-
+Source code: [https://github.com/radutomy/VSRemoteDebugger](https://github.com/radutomy/VSRemoteDebugger)
 
 [1]: https://raw.githubusercontent.com/radutomy/radutomy.github.io/master/img/p1/img1.JPG
 [2]: https://raw.githubusercontent.com/radutomy/radutomy.github.io/master/img/p1/img2.JPG
