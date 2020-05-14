@@ -26,7 +26,7 @@ Select the repository where the Blazor app is hosted and then continue. On the n
 Demo pagee: [https://radutomy.github.io/RealTimeBlazor/](https://radutomy.github.io/RealTimeBlazor/)
 Source code: [https://github.com/radutomy/RealTimeBlazor](https://github.com/radutomy/RealTimeBlazor)
 
-[1] https://raw.githubusercontent.com/radutomy/radutomy.github.io/master/img/p4/img1.JPG
-[2] https://raw.githubusercontent.com/radutomy/radutomy.github.io/master/img/p4/img2.JPG
-[3] https://raw.githubusercontent.com/radutomy/radutomy.github.io/master/img/p4/img3.JPG
-[4] https://raw.githubusercontent.com/radutomy/radutomy.github.io/master/img/p4/img4.JPG
+[1]: https://raw.githubusercontent.com/radutomy/radutomy.github.io/master/img/p4/img1.JPG
+[2]: https://raw.githubusercontent.com/radutomy/radutomy.github.io/master/img/p4/img2.JPG
+[3]: https://raw.githubusercontent.com/radutomy/radutomy.github.io/master/img/p4/img3.JPG
+[4]: https://raw.githubusercontent.com/radutomy/radutomy.github.io/master/img/p4/img4.JPG
