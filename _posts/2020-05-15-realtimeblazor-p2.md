@@ -15,7 +15,7 @@ In the previous post we built a Blazor Web Assembly client application that disp
 
 We'll assume you have an Azure dev account and the repository is hosted on GitHub.
 
-Head over to Azure dashboard, click on Pipelines -> New Pipeline
+Head over to Azure dashboard, click on Pipelines -> New Pipeline 
 
 ![alt text][1]
 
@@ -23,11 +23,12 @@ Select the repository where the Blazor app is hosted and then continue. On the n
 
 ![alt text][2]
 
-In the next page we need to configure the YAML that instructs the Azure VM how to build our repository.
+In the next page we need to configure the YAML that instructs the Azure VM to build our repository. We'll use an Ubuntu VM with the latest Long Term Support release of .NET Core
 
 The schematic is simple and follows this flow:
-
 `Copy from the repository` -> `Build the source code` -> `Publish the app artifacts` -> `Commit artifacts to GitHub Pages`
+
+I have annotated the script below.
 
 ```yml
 # ASP.NET Core
@@ -39,13 +40,13 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'ubuntu-latest'	# the host OS image
 
 variables:
-  buildConfiguration: 'Release'
+  buildConfiguration: 'Release'	# dotnet core's configuration
 
 steps:
-- script: dotnet build --configuration $(buildConfiguration)
+- script: dotnet build --configuration $(buildConfiguration)	# the  script that gets executed in the host OS
   displayName: 'dotnet build $(buildConfiguration)'
 
 - task: DotNetCoreCLI@2
@@ -73,6 +74,14 @@ steps:
     git push -f https://$GITHUBPAT@github.com/radutomy/RealTimeBlazor.git gh-pages
   displayName: 'Publish to GitHub Pages'
 ```
+
+Click on `Save and Run` and we're done with setting up Azure. Now every time we commit something to the repository, Azure will pick up the source code and publish out the website on the `gh-pages` branch in Github. All we need to do now is explicitly instruct GitHub to render the website based on the branch's content.
+
+Go to GitHub -> Project's settings -> look for a section called GitHub Pages and set the source to `gh-pages` branch. 
+
+![alt text][3]
+
+Wait for a few minutes for GitHub to render the website, and then we're done! We can go to `http://username.github.io/projectname. In my case it's [http://radutomy.github.io/RealTimeBlazor](http://radutomy.github.io/RealTimeBlazor)
 
 
 Demo pagee: [https://radutomy.github.io/RealTimeBlazor/](https://radutomy.github.io/RealTimeBlazor/)
