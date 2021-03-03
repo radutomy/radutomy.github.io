@@ -4,8 +4,6 @@ title: Remote SSH Debugging with Visual Studio 2019
 image: /img/p1/header.png
 ---	
 
-Hello World.
-
 With the rise of .NET Core and embedded devices such as the Rasperry Pi, I find it frustrating that Microsoft have not added support for remote debugger so that you can quickly deploy and debug your code on the Pi directly. You can do this with [a bit of effort using VsCode](https://www.hanselman.com/blog/VisualStudioCodeRemoteDevelopmentOverSSHToARaspberryPiIsButter.aspx), however, I do not find VsCode good enough yet for using in a professional environment and especially with large solutions.
 
 Therefore, I developed an extension for Visual Studio 2019 that fills the gap. You can download it from [here](https://github.com/radutomy/VSRemoteDebugger/releases/)
