@@ -20,7 +20,7 @@ url: "https://radutomy.github.io"
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About : "aboutme"
   GitHub: "https://github.com/radutomy"
   Keep in Touch: "https://www.linkedin.com/in/radutomuleasa"
 

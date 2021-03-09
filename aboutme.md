@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: About
 subtitle: Software/Industrial Engineering, C#, C, IoT, Blazor, Raspberry Pi etc
 ---
 
