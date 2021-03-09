@@ -1,3 +1,1 @@
-# Radu Tomuleasa - Mindstream repo
-
-:)
+# radutomuleasa.dev
